@@ -1,1 +1,1 @@
-# seed
+# repos with projects from lectons 
