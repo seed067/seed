@@ -1,1 +1,1 @@
-# repos with projects from lectons 
+# repos with projects from lections 
