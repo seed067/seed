@@ -1,0 +1,30 @@
+#define _USE_MATH_DEFINES
+#include <iostream> 
+#include <fstream> 
+#include <cmath> 
+#include <conio.h> 
+using namespace std;
+
+
+int main()
+{
+	double x, x0, x1, dx, y;
+	int n;
+	x0 = 0;
+	x1 = 90; 
+	dx =  5;
+	n = (x1 - x0) / dx + 1; 
+
+	ofstream result;
+	result.open("graph.txt");
+
+	for (int i = 0; i < n; i++)
+	{
+		x = x0 + i * dx; 
+		y = sin(x * M_PI / 180);
+		cout << x << '\t' << y << endl;
+		result << x << '\t' << y << endl;
+	}
+	result.close();
+
+}
