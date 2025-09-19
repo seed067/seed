@@ -1,0 +1,22 @@
+//#define _USE_MATH_DEFINES
+//#include <iostream> 
+//#include <fstream> 
+//#include <cmath> 
+//#include <conio.h> 
+//using namespace std;
+//
+//
+//int name()
+//{
+//	int n, sum;
+//	sum = 0;
+//
+//	cout << "Sum of integers from 1 to n. \nEnter n: ";
+//	cin >> n;
+//
+//	for (int i = 0; i <= n; i++)
+//	{
+//		sum += i; // прибавляем к сумме i
+//	}
+//	cout << "Sum = " << sum << endl;
+//}
